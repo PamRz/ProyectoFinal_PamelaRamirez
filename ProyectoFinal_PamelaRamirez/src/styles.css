@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+.mat-card#first-card{
+    border-radius: 35px;
+    margin: 10px 10px;
+    padding: 20px;
+    border-color:#0a66c2 ;
+    padding: 10px;
+ }
+ div#profile-background{
+     display: flex;
+     z-index: 1;
+ }
+ div#profile-background img{
+     width: 100%;
+     border-radius: 32px 32px 0 0 ;
+ }
+ 
+ .profile-imagen{
+     border-radius: 60%;
+     width: 127px;
+     margin-top: -104px;
+     z-index: 1;
+ }
+ 
