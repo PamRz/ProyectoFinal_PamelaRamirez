@@ -17,9 +17,9 @@ div#profile-background img{
     border-radius: 32px 32px 0 0 ;
 }
 
-.profile imagen{
-    border-radius: 50%;
-    width: 152px;
-    margin-top: -110px;
+.profile-imagen{
+    border-radius: 60%;
+    width: 127px;
+    margin-top: -104px;
     z-index: 1;
 }
