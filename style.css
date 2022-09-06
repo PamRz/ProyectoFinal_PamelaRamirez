@@ -1,10 +1,14 @@
-.mat-card#first-card{
-    border-radius: 35px;
+.mat-card{
+    border-radius: 32px;
     margin: 10px 10px;
-    padding: 20px;
-    border-color:#0a66c2 ;
-    padding: 10px;
+    padding: 80px;
+    border: 2px solid #0a66c2;
+
  }
+
+.mat-card#first-card{
+    padding: 40px;
+}
  div#profile-background{
      display: flex;
      z-index: 1;
