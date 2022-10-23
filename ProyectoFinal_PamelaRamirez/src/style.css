@@ -1,8 +1,11 @@
 
+.spacer {
+    flex: 1;
+}
 .mat-card{
     border-radius: 32px;
     margin: 10px 10px;
-    padding: 80px;
+    padding: 40px;
     border: 2px solid #0a66c2;
 }
 .mat-card#first-card{
@@ -14,12 +17,60 @@ div#profile-background{
 }
 div#profile-background img{
     width: 100%;
-    border-radius: 32px 32px 0 0 ;
+
+    border-radius: 32px 32px 32px 32px ;
 }
 
 .profile-imagen{
     border-radius: 60%;
     width: 127px;
-    margin-top: -104px;
+    margin-top: -120px;
     z-index: 1;
+}
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #3d1281;
+    color: white;
+    font-weight: 600;
+    border-radius:10px 10px 10px 10px ;
+  }
+
+.toolbar img {
+    margin: 10px 16px;
+}
+
+.toolbar #twitter-logo {
+    height: 40px;
+    margin: 0 8px;
+}
+
+.toolbar #youtube-logo {
+    height: 40px;
+    margin: 0 16px;
+}
+
+.toolbar #twitter-logo:hover,
+.toolbar #youtube-logo:hover {
+    opacity: 0,5;
+}
+.content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-image: url("https://st4.depositphotos.com/1019178/20282/i/450/depositphotos_202821714-stock-photo-abstract-white-modern-background-of.jpg");
+    
+  
 }

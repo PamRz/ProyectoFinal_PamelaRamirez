@@ -65,4 +65,10 @@ div#profile-background img{
     max-width: 960px;
     flex-direction: column;
     align-items: center;
-  }
+}
+
+body {
+    background-image: url("https://st4.depositphotos.com/1019178/20282/i/450/depositphotos_202821714-stock-photo-abstract-white-modern-background-of.jpg");
+    
+  
+}

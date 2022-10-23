@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+//importamos componentes//
+import {PageOneComponent} from "./components/page-one.component";
 
 const routes: Routes = [];
 
